@@ -1,0 +1,75 @@
+---
+title: "**RQDA: un paquete de análisis cualitativo para R**"
+author: Mario Domínguez
+output: revealjs::revealjs_presentation
+---
+# **Algunos Antecedentes**
+
+## Revisión histórica
+RDQA es un paquete de R para el Análisis de Datos Cualitativos, (licencia BSD) gratuita creado por Huang Ronggui, sociólogo de la Fundan University en Shangai, China. Funciona en plataformas Windows, Linux / FreeBSD y Mac OSX.
+
+RQDA es una herramienta fácil de usar para ayudar en el análisis de datos textuales, por el momento sólo admite datos de texto en formato ".txt".
+
+## 
+<div style="text-align: justify">
+- Toda la información se almacena en una base de datos SQLite a través del paquete R de RSQLite. 
+- La Interfaz Gráfica de Usuario (GUI) se basa en RGtk2, a través de la ayuda de gWidgetsRGtk2. Incluye una serie de características estándar de análisis de datos cualitativos asistidos por computadora.
+-  Actualmente tiene algunos problemas de compàtibilidad con Mac OSX, pero existen soluciones alternativas que permiten su ejecución.
+[esta solución me resultó a mi en OSX (http://marcoghislanzoni.com/blog/2014/08/29/solved-installing-rattle-r-3-1-mac-os-x-10-9/)]
+
+# **Usos**
+## 
+
+<div style="text-align: justify">
+
+- RQDA permite el análisis de distinto tipo, su flexibilida permite la construcción de categorías emergentes como también la posibilidad de establecer categorías y "vaciar" información en ellas.
+- el vínculo con R permite transformar los resultados en marcos de datos analizables: frecuencias, nubes de palabras.
+- Con Shiny, un paquete de R que permite realizar reportes interactivo se han desarrollado buenas soluciones para filtrar y descargar las codificaciones realizada
+Por ejemplo:el paquete RQDAPlus.
+(en eso nuestr-s amig-s de la comunidad R pueden aportar muchisimo en mejorar)
+
+# ¿Que posibilidades de análisis entrega RQDA?
+
+## 
+![alt text](/Users/mariodominguez/Documents/Proyectos/RQDA_useRs/RQDA_useRs/posit.png)
+
+## **Tipos de registros**
+<div style="text-align: justify">
+- Registro y elaboración ordenada de archivos
+- Códigos únicos y múltiples para cada texto seleccionado
+- Categorías que agrupan códigos.
+- Memos y diarios que permiten el registro permanente de cada desición metodológica o conceptualización teórica.
+- Registro de Casos y Atributos de l-s entrevistad-s.
+- Trabajo por medio de la lógica de proyectos, lo que facilita la organización de diversos estudios.
+
+# **La GUI de RQDA**
+
+##
+![alt text](/Users/mariodominguez/Documents/Proyectos/RQDA_useRs/RQDA_useRs/GUI_RQDA.png)
+
+
+## no es la gran cosa...
+
+![alt text](/Users/mariodominguez/Documents/Proyectos/RQDA_useRs/RQDA_useRs/tenor.gif)
+
+# **Reflexiones sobre su uso**
+
+##
+<div style="text-align: justify">
+- A diferencia de otros softwares cualitativos RQDA permite un tratamiento de datos susceptible de ser integrada a otros tipos de análisis.
+- Fomenta la transformación digital de los y las investigadoras aportando al emergente campo de las "humanidades digitales"
+- Aporta soluciones prácticas a los debates epistemoógicos en torno a la "rivalidad" cuali/cuanti. 
+- Debido a su permanente desarrollo tiene varios problemas de compatibilidad, pero gracias a la coomunidad de R pueden resolverse.
+
+
+# **Algunos link de interés...**
+##
+[https://rpubs.com/dastan/rqda_english]
+[https://lucidmanager.org/discourse-network-analysis-literature-review/]
+[https://www.youtube.com/user/RQDAtuto]
+
+## **vamos a un breve ejercicio...**
+
+
+
+
